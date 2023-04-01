@@ -11,13 +11,18 @@
         android:label="fragment_start"
         tools:layout="@layout/fragment_start" />
     <fragment
-        android:id="@+id/XMLFragment"
-        android:name="com.example.pr5.XMLFragment"
+        android:id="@+id/XMLFirstFragment"
+        android:name="com.example.pr5.XMLFirstFragment"
         android:label="fragment_x_m_l"
-        tools:layout="@layout/fragment_x_m_l" />
+        tools:layout="@layout/fragment_x_m_l_first" />
     <fragment
         android:id="@+id/codeFragment"
         android:name="com.example.pr5.CodeFragment"
         android:label="fragment_code"
         tools:layout="@layout/fragment_code" />
+    <fragment
+        android:id="@+id/XMLSecondFragment"
+        android:name="com.example.pr5.XMLSecondFragment"
+        android:label="fragment_x_m_l_second"
+        tools:layout="@layout/fragment_x_m_l_second" />
 </navigation>

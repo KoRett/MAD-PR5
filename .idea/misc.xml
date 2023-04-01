@@ -3,9 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/kashe/AndroidStudioProjects/PR5/app/src/main/res/drawable/toast.xml" value="0.1085" />
         <entry key="..\:/Users/kashe/AndroidStudioProjects/PR5/app/src/main/res/layout/activity_main.xml" value="0.2526041666666667" />
         <entry key="..\:/Users/kashe/AndroidStudioProjects/PR5/app/src/main/res/layout/fragment_code.xml" value="0.23854166666666668" />
-        <entry key="..\:/Users/kashe/AndroidStudioProjects/PR5/app/src/main/res/layout/fragment_start.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/kashe/AndroidStudioProjects/PR5/app/src/main/res/layout/fragment_start.xml" value="0.152" />
+        <entry key="..\:/Users/kashe/AndroidStudioProjects/PR5/app/src/main/res/layout/fragment_x_m_l.xml" value="0.2526041666666667" />
+        <entry key="..\:/Users/kashe/AndroidStudioProjects/PR5/app/src/main/res/layout/fragment_x_m_l_first.xml" value="0.1" />
+        <entry key="..\:/Users/kashe/AndroidStudioProjects/PR5/app/src/main/res/layout/fragment_x_m_l_second.xml" value="0.264" />
       </map>
     </option>
   </component>

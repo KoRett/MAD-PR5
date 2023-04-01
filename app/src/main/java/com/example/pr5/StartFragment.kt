@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.example.pr5.databinding.FragmentStartBinding
 
 class StartFragment : Fragment() {
@@ -17,6 +18,10 @@ class StartFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         _binding = FragmentStartBinding.inflate(inflater, container, false)
+        binding.btCode.setOnClickListener { findNavController().navigate(R.id.codeFragment) }
+        binding.btXmlFirst.setOnClickListener { findNavController().navigate(R.id.XMLFirstFragment) }
+        binding.btXmlSecond.setOnClickListener { findNavController().navigate(R.id.XMLSecondFragment) }
+
         return binding.root
     }
 
